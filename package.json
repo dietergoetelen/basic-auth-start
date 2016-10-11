@@ -7,7 +7,7 @@
     "test": "karma start karma.config.js",
     "build": "webpack",
     "build:prod": "webpack -p",
-    "serve": "webpack-dev-server --content-base dist/ --inline",
+    "serve": "webpack-dev-server --content-base dist/ --inline --port 6789",
     "postinstall": "typings install"
   },
   "keywords": [],

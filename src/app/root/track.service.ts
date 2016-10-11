@@ -2,6 +2,7 @@
 export class TrackService {
   static iid: string = 'TrackService';
 
+  static $inject = ['$http'];
   constructor(private $http:ng.IHttpService){}
 
   getTracks() {
